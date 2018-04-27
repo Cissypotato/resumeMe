@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 !function(){
     var view=document.querySelector('.swiper-container')
     var controller={
@@ -16,22 +14,4 @@
     }
     controller.init(view);
 }.call()
-=======
 
-!function(){
-    var view=document.querySelector('.swiper-container')
-    var controller={
-        view:null,
-        swiper:null,
-        swiperOptions:{loop: true,pagination: {el: '.swiper-pagination',},navigation: {nextEl: '.swiper-button-next',prevEl: '.swiper-button-prev',}},
-        init:function(view){
-            this.view=view
-            this.initSwiper()
-        },
-        initSwiper:function(){
-            this.swiper=new Swiper(this.view,this.swiperOptions)
-        }
-    }
-    controller.init(view);
-}.call()
->>>>>>> 7487b861b76518bec7b0adf625aa6af125ed39cf
