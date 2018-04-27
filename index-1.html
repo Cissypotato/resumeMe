@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cissy's Resume</title>
+    <link rel="stylesheet" href="styles/index-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css">
+    <script src="//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js">
+    </script>
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+        .swiper-container {
+            width: 800px;
+            height: 400px;
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- <div class="welcome active" id="welcome">
+        <div class="loading"></div>
+    </div> -->
+    <!-- header -->
+    <header id="header">
+        <div class="header-inner clearfix">
+            <P class="logo"><span class="rs">RS</span><span class="card">card</span></P>
+            <ul class="nav" id='headerNav'>
+                <li><a href="#aboutSide">关于</a></li>
+                <li><a href="#skillsSide">技能</a></li>
+                <li>
+                    <a href="#portfolioSide">作品</a>
+                    <ul class="submenu">
+                        <li>作品1</li>
+                        <li>作品2</li>
+                        <li>作品3</li>
+                    </ul>
+                </li>                
+                <li>
+                    <a href="#" >博客</a>
+                    <ul class="submenu">
+                            <li>博客1</li>
+                            <li>博客2</li>
+                            <li>博客3</li>
+                    </ul>
+                </li>
+                <li><a href="#">联系方式</a></li>
+                <li><a href="#">其它</a></li>
+            </ul>
+        </div>    
+    </header>
+    <!-- banner -->
+    <section class="banner">
+        <div class="mask"></div>
+    </section>
+    <!-- main -->
+    <main id="aboutSide" data-x >
+        <div class="userCard ">
+            <div class="picAndtxt clearfix">
+                <div class="pic"><img src="images/avatar-3a.jpg" alt=""></div>
+                <div class="txt">
+                    <span class="hello">Hello<span class="triangle"></span></span>
+                    <h1>Cissy</h1>
+                    <p>前端开发工程师</p>
+                    <hr>
+                    <dl>
+                        <dt>年龄</dt>
+                        <dd>22</dd>
+                        <dt>所在地</dt>
+                        <dd>上海</dd>
+                        <dt>邮箱</dt>
+                        <dd>1237647583@qq.com</dd>
+                        <dt>联系电话</dt>
+                        <dd>12345678909</dd>
+                        <dt>年龄</dt>
+                        <dd>22</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footer">
+                 <!-- <a href="#">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-jianbao"></use>
+                                </svg>
+                                
+                        </a> -->
+                        <a href="#">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-github"></use>
+                                </svg> 
+                        </a>
+                        <a href="#">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-qq"></use>
+                                </svg> 
+                        </a>
+                        <a href="#">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-weixin"></use>
+                                </svg>
+                        </a>
+                        <a href="#">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-weibo"></use>
+                                </svg>
+                        </a>
+            </div>
+        </div>
+        <p class="downloadResumeWrapper">
+            <a class="downloadResume" href="./resume.pdf" target="_blank" download>下 载 PDF 文 档</a>
+        </p>
+        <p class="selfIntroduction">
+            Cissy  前端工程师<br>
+            技能：前端开发，HTML5，CSS，JavaScript，JQuery，Vue，React，HTTP<br>
+            院子里有两棵树，一棵是枣树，另一棵也是枣树。
+        </p>
+    </main>
+    <!-- skills -->
+    <section class="skills" id="skillsSide" data-x>
+        <h2>专业技能</h2>
+        <ul class="clearfix">
+            <li>
+                <h3>HTML5&CSS</h3>
+                <div class="bar">
+                    <div class="progressBar"></div>
+                </div>
+            </li>
+            <li>
+                <h3>javaScript</h3>
+                <div class="bar">
+                    <div class="progressBar"></div>
+                </div>
+            </li>
+            <li>
+                <h3>jQuery</h3>
+                <div class="bar">
+                    <div class="progressBar"></div>
+                </div>
+            </li>
+            <li>
+                <h3>Vue</h3>
+                <div class="bar">
+                    <div class="progressBar"></div>
+                </div>
+            </li>
+            <li>
+                <h3>React</h3>
+                <div class="bar">
+                    <div class="progressBar"></div>
+                </div>
+            </li>
+            <li>
+                <h3>HTTP</h3>
+                <div class="bar">
+                    <div class="progressBar"></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolioSide" data-x>
+        <h2>作品集</h2>
+        <nav>
+            <ol class="clearfix">
+                <li id="portfolio1">所有</li>
+                <li id="portfolio2">框架</li>
+                <li id="portfolio3">原生JS&CSS</li>
+            </ol>
+         <div class="bar state-1" id="portfolioBar">
+                <div class="bar-inner"></div>
+            </div>
+        </nav>
+        <!-- <div class="works">
+            <div class="big"><img src="images/1.jpg"></div>
+            <div class="small"><img src="images/2.jpg"></div>
+            <div class="small"><img src="images/3.jpg"></div>
+        </div> -->
+        <div class="swiper-container">
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><a href="#"><img src="images/1.jpg" alt="" srcset=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="images/2.jpg" alt="" srcset=""></a></div>
+                <div class="swiper-slide"><a href="#"><img src="images/3.jpg" alt="" srcset=""></a></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+        
+        </div>
+    </section>  
+    <!-- message -->
+    <section class="message" data-x >
+        <h2>留言</h2>
+        <ol id="messageList"></ol>
+        <form action="" id="postMessageForm" style="width:700px;margin:50px auto;">
+            <label for="">姓名：</label>
+            <input type="text"name="name" >
+            <label for="">留言：</label>
+            <input type="text"name="content" >
+            <button type="submit">提交</button>
+        </form>
+    </section>
+     
+     
+    <script src="https://cdn.bootcss.com/tween.js/r14/Tween.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.min.js"></script>
+    <script src="//cdn1.lncld.net/static/js/3.6.8/av-min.js"></script>
+
+    <!--模块化-->
+    <script src="scripts/swiper.js"></script>
+    <script src="scripts/auto-slide-up.js"></script>
+    <script src="scripts/sticky-topbar.js"></script>
+    <script src="scripts/smoothly-navigation.js"></script>
+    <script src="scripts/message.js"></script>
+
+</body>
+</html>
